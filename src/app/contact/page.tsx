@@ -9,6 +9,7 @@ const inquiryTypes = [
   "NIL Representation",
   "Marketing",
   "Player Development",
+  "Playing Professionally",
   "Analytics",
   "General Inquiry",
 ];
