@@ -25,34 +25,8 @@ export default function About() {
     <main className="bg-black text-white">
       <Navbar />
 
-      {/* Page hero */}
-      <section className="relative flex min-h-[45vh] flex-col items-center justify-center overflow-hidden px-6 text-center">
-        {/* Subtle grid */}
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.04]"
-          style={{
-            backgroundImage:
-              "linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px)",
-            backgroundSize: "80px 80px",
-          }}
-        />
-        {/* Diagonal accent */}
-        <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div
-            className="absolute left-[62%] top-[-10%] h-[120%] w-[1.5px] bg-linear-to-b from-transparent via-[#72B8E2]/20 to-transparent"
-            style={{ transform: "rotate(22deg)", transformOrigin: "top center" }}
-          />
-        </div>
-
-        <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
-          Jack Lieb
-          <br />
-          <span className="text-[#72B8E2]">Founder.</span>
-        </h1>
-      </section>
-
       {/* Founder section */}
-      <section className="border-t border-[#72B8E2]/50 px-6 py-24">
+      <section className="px-6 py-24">
         <div className="mx-auto max-w-7xl grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-24">
 
           {/* Left — photo + name */}
@@ -83,10 +57,8 @@ export default function About() {
             <div className="flex flex-col gap-5 text-sm leading-8 text-white/55">
               <p>
                 Jack Lieb is the Founder of Fraction and resides in Chicago, Illinois. A licensed
-                NBPA certified agent and NIL agent.
-                He built Fraction on the belief that athletes deserve precise,
-                trusted representation — not just at the negotiating table, but throughout 
-                all areas of their life.
+                NBPA certified agent and NIL advisor. He founded Fraction on the conviction
+                that everyone has untapped potential.
               </p>
               <p>
                 Jack has experience as a Graduate Assistant at Vanderbilt University, where he coached multiple NBA players while earning

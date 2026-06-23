@@ -60,10 +60,6 @@ export default function Home() {
           <span className="text-[#72B8E2]">&amp; Coaching.</span>
         </h1>
 
-        <p className="mt-8 max-w-md text-base leading-7 text-white/50">
-          Fraction is a sports advisory firm helping athletes, coaches, teams, and brands reach their goals.
-        </p>
-
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row">
           <a
             href="#services"
@@ -77,6 +73,32 @@ export default function Home() {
           >
             Contact Us →
           </a>
+        </div>
+      </section>
+
+      {/* About */}
+      <section id="about" className="border-t border-[#72B8E2]/50 px-6 py-32">
+        <div className="mx-auto max-w-7xl grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-32">
+          <div>
+            <p className="mb-4 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70">
+              About
+            </p>
+            <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
+              A firm built on{" "}
+              <br />
+              <span className="text-[#72B8E2]">trust.</span>
+            </h2>
+          </div>
+          <div className="flex flex-col justify-center gap-6 text-white/50 text-sm leading-8">
+            <p>
+              Fraction is dedicated to delivering elite service and strategy to its clients.
+            </p>
+            <p>
+              Operating at the intersection of sports and
+              business — guided by relentless execution.
+
+            </p>
+          </div>
         </div>
       </section>
 
@@ -112,32 +134,6 @@ export default function Home() {
       </section>
 
       <BrandsMarquee />
-
-      {/* About */}
-      <section id="about" className="border-t border-[#72B8E2]/50 px-6 py-32">
-        <div className="mx-auto max-w-7xl grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-32">
-          <div>
-            <p className="mb-4 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70">
-              About
-            </p>
-            <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
-              A firm built on{" "}
-              <br />
-              <span className="text-[#72B8E2]">trust.</span>
-            </h2>
-          </div>
-          <div className="flex flex-col justify-center gap-6 text-white/50 text-sm leading-8">
-            <p>
-              Fraction is dedicated to delivering elite service and strategy to its clients.
-            </p>
-            <p>
-              Operating at the intersection of sports and 
-              business — guided by relentless execution.
-
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Contact */}
       <section
