@@ -4,34 +4,28 @@ import BrandsMarquee from "@/components/BrandsMarquee";
 
 const services = [
   {
-    label: "NBA",
-    description:
-      "Representing players at the NBA level, prioritizing fit while maximizing opportunity for success.",
+    label: "Advisory",
+    description: "Strategic career guidance.",
   },
   {
-    label: "NIL",
-    description:
-      "Contract negotiations for athletes at the Prep, Grassroots, and NCAA levels."
-  },
-  {
-    label: "Player Development",
-    description:
-      "Coaching and tools to maximize athlete performance."
-  },
-  {
-    label: "FIBA",
-    description:
-      "Partnered opportunities for players across international markets.",
+    label: "Coaching",
+    description: "On-court development.",
   },
   {
     label: "Marketing",
-    description:
-      "Mutually aligned partnerships between athletes and brands.",
+    description: "Brand partnerships.",
+  },
+  {
+    label: "Player Development",
+    description: "Performance training.",
   },
   {
     label: "Analytics",
-    description:
-      "Leveraged data for valuation on and off the court."
+    description: "Data and valuation.",
+  },
+  {
+    label: "Deal Structuring",
+    description: "Contracts and capital.",
   },
 ];
 
@@ -61,11 +55,9 @@ export default function Home() {
         </div>
 
         <h1 className="max-w-4xl text-6xl font-semibold leading-[1.1] tracking-tight md:text-8xl">
-          Precision.
+          Advisory
           <br />
-          <span className="text-[#72B8E2]">Trust.</span>
-          <br />
-          Execution.
+          <span className="text-[#72B8E2]">&amp; Coaching.</span>
         </h1>
 
         <p className="mt-8 max-w-md text-base leading-7 text-white/50">
@@ -95,9 +87,7 @@ export default function Home() {
             What We Do
           </p>
           <h2 className="mb-16 max-w-md text-4xl font-semibold tracking-tight md:text-5xl">
-            Built for the
-            <br />
-            <span className="text-[#72B8E2]">work that matters.</span>
+            Areas of <span className="text-[#72B8E2]">focus.</span>
           </h2>
 
           <div className="grid grid-cols-1 gap-px md:grid-cols-2">

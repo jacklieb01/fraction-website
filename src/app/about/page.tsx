@@ -45,9 +45,9 @@ export default function About() {
         </div>
 
         <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
-          We are
+          Jack Lieb
           <br />
-          <span className="text-[#72B8E2]">Fraction.</span>
+          <span className="text-[#72B8E2]">Founder.</span>
         </h1>
       </section>
 
@@ -82,9 +82,9 @@ export default function About() {
           <div className="flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-5 text-sm leading-8 text-white/55">
               <p>
-                Jack Lieb is the Founder of Fraction and resides in Chicago, Illinois. A licensed 
-                NBPA certified agent and NIL agent, Jack guides players towards success.
-                He built Fraction on the belief that athletes deserve precise, 
+                Jack Lieb is the Founder of Fraction and resides in Chicago, Illinois. A licensed
+                NBPA certified agent and NIL agent.
+                He built Fraction on the belief that athletes deserve precise,
                 trusted representation — not just at the negotiating table, but throughout 
                 all areas of their life.
               </p>
